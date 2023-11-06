@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# ¡Bienvenido!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<div style="font-size: 2em; font-weight: bold;">Fabio Antonio González Sosa</div>
+<em>Ingeniero en Software</em>
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+<p style="text-align: justify">
+Me especializo en el diseño <em>full-stack</em> e implementación de plataformas de software a medida para afrontar diferentes desafíos de la industria en diferentes sectores. Mi experiencia se centra principalmente en el <em>backend</em> de estas plataformas, asegurándome que la base sea lo suficientemente sólida para extender y construir otras soluciones sobre la misma. Por otro lado, cuento con experiencia en el desarrollo de aplicaciones móviles nativas e híbridas, creación de interfaces web y software de escritorio multiplataformas (windows/linux) para conectar a los usuarios finales con los servicios implementados y cerrar el circuito operativo. Capaz de ejecutar proyectos de forma individual y/o con personas bajo mi supervisión.
+</p>
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+¡Te muestro!.

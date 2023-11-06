@@ -2,7 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://fabiuxx.github.io/portfolio/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fabiuxx.github.io/portfolio/contact/</loc>
+         <lastmod>2023-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fabiuxx.github.io/portfolio/projects/</loc>
+         <lastmod>2023-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
