@@ -59,6 +59,14 @@ Aplicación móvil que forma parte de un sistema integral de trazabilidad que pe
 - Typescript
 - React Native
 
+### Facturación Electrónica
+Consultoría particular sobre integración de diferentes sistemas ERP y de gestión al Sistema Integrado de Facturación Electrónica Nacional - SIFEN. Desarrollo de soluciones *middleware* para generación de documentos XML validos a partir de fuentes heterogéneas de datos o bien la integración a soluciones de facturación electrónica externas a través de los diferentes APIs ofrecidos. Basicamente, procesos [ETL](https://es.wikipedia.org/wiki/Extract,_transform_and_load) a medida con énfasis en facturación electrónica.
+
+#### Stack
+- Java
+- Python
+- SQL (Oracle, PostgreSQL, SQL Server)
+
 ## Proyectos Personales
 
 ### Chatbot
