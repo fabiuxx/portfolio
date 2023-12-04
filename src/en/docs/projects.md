@@ -1,164 +1,164 @@
-# Mis Proyectos
+# My Projects
 
-Breve lista de proyectos laborales y personales realizados a lo largo de mi carrera.
+Brief list of professional and personal projects carried out throughout my career.
 
-## Proyectos Laborales
+## Professional Projects
 
-### Red de Pagos
-Implementación punta a punta de una solución de pagos para soporte del servicio PayPro (plataforma [RED PRO](https://www.procard.com.py/procard_institucional/redpro/)) de Procard S.A. Se desarrolló un software de escritorio para ambientes Windows/Linux que interactúa con diferentes dispositivos de captura de datos (3 marcas de PoS, homologados bajo estándares PCI). La gestión y distribución de este software se realiza de forma centralizada con un panel de gestión hecho a medida. Todas las transacciones capturadas se procesan en un único servicio de *switch* hecho a medida para compatibilidad con los autorizadores de Procard S.A.
+### PayPro - A Payment Network
+End-to-end implementation of a payment solution to support the PayPro service ([RED PRO platform](https://www.procard.com.py/procard_institucional/redpro/)) of [Procard S.A](https://www.procard.com.py/procard_institucional/), one of the largest payments processor of the country. A desktop software was developed for Windows/Linux environments that interacts with different data capture devices (3 PoS brands, approved under PCI standards). The management and distribution of this software is done centrally with a custom-made management panel. All captured transactions are processed in a single *switch* service tailored for compatibility with Procard S.A. authorizers.
 
-#### Stack
-- Java (Wildfly, JavaEE, Hibernate, Java Swing/Fx)
-- C# (WinForms)
-- C (ANSI C para interacción con dispositivos POS)
-- SQL (MySQL, MariaDB)
-- HTML/CSS/Javascript
+#### Technology Stack
+- Java (Wildfly, JavaEE, Hibernate, Java Swing/Fx).
+- C# (WinForms).
+- C (ANSI C).
+- SQL (MySQL, MariaDB).
+- HTML/CSS/Javascript.
 
-#### Tareas
-- Diseñé el modelo de tablas para la base de datos.
-- Implementé en su totalidad los módulos de servidor que conforman el *switch* transaccional.
-- Implementé diferentes adaptadores de comunicación con el autorizador principal de la entidad, atendiendo las modificaciones y actualizaciones que sufre el mismo dentro de la entidad.
-- Participé en la especificación del formato de mensajes a intercambiar entre el *switch* y el autorizador de la entidad.
-- Implementé el software de escritorio que permite interfacear con los dispositivos POS para la captura de datos y realizar transacciones.
-- Me encargué de que el software de escritorio tenga compatibilidad completa (por requerimientos de la entidad) en sistemas operativos Windows, Linux y arquitecturas de CPU 32 y 64 bits.
-- Integración con tres modelos (fabricantes distintos) de dispositivos POS.
-- Implementé una aplicación web de administración de la plataforma (CRUD, reportes).
-- Participación constante en revisiones de seguridad y auditorias a todos los componentes software desarrollados, según normativas internacionales ([PCI](https://www.pcisecuritystandards.org/), [ISO](https://www.iso.org/home.html), entre otros).
-- Redacté pruebas unitarias y E2E (extremo-a-extremo).
+#### Tasks
+- Designed the tables model for the database.
+- Implemented the server modules that make up the transactional *switch*.
+- Implemented different communication adapters with the main *authorizer* of Procard, addressing the modifications and updates that it undergoes within the company.
+- I participated in the specification of the format of messages to be exchanged between the *switch* and the authorizer.
+- Implemented desktop software that allows interfacing with POS devices to capture data and carry out transactions.
+- I made sure that the desktop software had full compatibility (per Procard requirements) on Windows, Linux operating systems and 32 and 64-bit CPU architectures.
+- Tested and homologated with three models (different manufacturers) of POS devices.
+- I implemented a web application that allows the platforma administration (CRUD, reports).
+- Constant participation in security reviews and audits of all developed software components, according to international regulations ([PCI](https://www.pcisecuritystandards.org/), [ISO](https://www.iso.org/home.html), among others).
+- Wrote unit and E2E (end-to-end) tests.
 
-### Sistema de Preventa
-Plataforma de gestión de fuerza de ventas y captura de pedidos. La solución se presenta en dos frentes: interfaz web para la gestión de datos de origen (productos, listas de precio, inventario, clientes, puntos de venta, canales de venta, entre otros) e interfaz móvil (Android) para la captura y registro de trazabilidad de actividades de la fuerza de ventas (pedidos, venta directa, visitas agendadas, reposición, cobros, retiro de mercaderías, entre otros).
+### Sistema de Preventa - A Retail Platform
+Platform to manage the sales force and traceability of operations regarding the retail industry. The solution is presented on two fronts: a web interface for the management of core data (products, price lists, inventory, customers, points of sale, sales channels, among others) and a mobile interface (Android) for capture and registration of sales, sales force traceability, common activities (purchase orders, direct sales, scheduled visits, delivery and withdrawal of goods, among others).
 
-#### Stack
-- Java (Wildfly, JavaEE, Hibernate)
-- JSF (Primefaces)
-- SQL (PostgreSQL, SQLite)
-- HTML/CSS/Javascript
-- Python
-- Android Nativo
+#### Technology Stack
+- Java (Wildfly, JavaEE, Hibernate).
+- JSF (Primefaces).
+- SQL (PostgreSQL, SQLite).
+- HTML/CSS/Javascript.
+- Python.
+- Android (Native SDK).
 
-#### Tareas
-- Diseñé el modelo de tablas para la base de datos.
-- Implementé un mini *framework* interno para acelerar el desarrollo en JSF con componentes personalizados y plantillas de interfaz de usuario.
-- Creé un esqueleto general de interfaz de usuario web y pautas para vistas de interfaz de usuario comunes (CRUD).
-- Implementé el API REST que permite la integración con sistemas del cliente final.
-- Implementé el API REST que alimenta a la aplicacióm móvil.
-- A cargo de la revisión y mejora continua de consultas JPA o nativas (SQL).
-- Creé scripts para ingerir datos existentes y automatizar la migración diaria desde los sistemas de los clientes finales.
-- Asistí a reuniones con clientes para comprobar nuevas funciones y revisar la experiencia general.
-- Participé en *showcases* con potenciales nuevos clientes, relevando requerimientos y mejoras potenciales.
-- Implementé la aplicación móvil.
-- Redacté pruebas unitarias y E2E (extremo-a-extremo).
+#### Tasks
+- Designed the table model for the database.
+- Implemented an internal mini *framework* to speed up JSF (Java Server Faces) development with custom components and UI templates.
+- Created a general web UI skeleton and guidelines for Common UI Views (CRUD).
+- Implemented the REST API that allows integration with end client systems.
+- Implemented the REST API that feeds the mobile application.
+- In charge of the review and continuous improvement of JPA and/or native queries (SQL).
+- Created scripts to ingest existing data and automate daily migration from end clients' systems. Simple ETL worklfows.
+- Attended customer meetings to check out new features and review the overall experience.
+- Participated in *showcases* with potential new clients, revealing requirements and potential improvements.
+- Implemented the mobile application entirely.
+- Wrote unit and E2E (end-to-end) tests.
 
-### Sistema de Factoring
-Solución web que permite a diferentes proveedores y compradores subir sus facturas, validar las mismas y aplicar procesos de conformación y rectificación ante de su potencial oferta de venta (factoraje). Las facturas aprobadas para su venta se ofertan a diferentes entidades financieras adheridas a la plataforma. Las entidades financieras se homologan e integran servicio-a-servicio bajo un API único desarrollado a medida. Todas las transacciones son visibilizadas y trazadas vía mail y pueden consultarse vía interfaz web.
+### Sistema de Factoring - An Auction Like Platform
+Web solution that allows different suppliers and buyers to upload their invoices, validate them and apply formation and rectification processes before their potential sale offer (factoring). Invoices approved for sale are offered to different financial entities attached to the platform. Financial entities integrate service-to-service with the platform under a unique custom-developed API. All transactions are visible and traced via email and can be consulted via web interface.
 
-#### Stack
-- Java (Wildfly, JavaEE, Hibernate)
-- JSF (Primefaces)
-- SQL (PostgreSQL)
-- HTML/CSS/Javascript
-- SOAP
+#### Technology Stack
+- Java (Wildfly, JavaEE, Hibernate).
+- JSF (Primefaces).
+- SQL (PostgreSQL).
+- HTML/CSS/Javascript.
+- SOAP.
 
-#### Tareas
-- Heredé el proyecto y realice algunos ajustes para organizar el código fuente y eliminar funcionalidades obsoletas.
-- Actualicé la interfaz gráfica con un nuevo estilo visual.
-- Corregí errores pendientes.
-- Implementé nuevas características utilizando las ya existentes, extendiendo o mejorando las mismas.
-- Creé documentación detallada de los procesos involucrados durante la subasta de facturas y el cálculo de tasas de interés y deducciones.
-- Implementé el API REST que permite a las diferentes entidades financieras integrarse a la plataforma.
-- Integración completa con tres entidades financieras.
-- Redacté pruebas unitarias y E2E (extremo-a-extremo).
+#### Tasks
+- Inherited the project and made some adjustments to organize the source code and remove obsolete functionality.
+- Updated the graphical interface with a new visual style.
+- Fixed pending bugs.
+- Implemented new features using existing ones, extending or improving them.
+- Created detailed documentation of the processes involved during invoice auction and calculation of interest rates and deductions.
+- Implemented the REST API that allows different financial entities to integrate into the platform.
+- Completed integration with three financial entities.
+- Wrote unit and E2E (end-to-end) tests.
 
-### Sistema de Ruteo
-Plataforma web hecha a medida que permite a administradores logísticos planificar zonas de venta, agendamiento de visitas a puntos de venta y calcular rutas idealmente óptimas para reparto de pedidos. Toda la herramienta utiliza software de carácter abierto como ser: open street maps y leaflet (para visualización de mapas y datos geográficos), OSRM y VROOM (para soporte de cálculo de rutas óptimas y servicios de geolocalización).
+### Sistema de Ruteo - A Routing Optimization Platform
+In-house web platform that allows logistics administrators to organize sales areas, schedule visits to points of sale and calculate ideally optimal routes for delivery of goods. The entire tool uses open software such as: open street maps and leaflet (for visualization of maps and geographic data), OSRM and VROOM (for support for calculating optimal routes and geolocation services).
 
-#### Stack
-- Java (Wildfly, JavaEE, Hibernate)
-- JSF (Primefaces)
-- SQL (PostgreSQL)
-- HTML/CSS/Javascript
-- NodeJS
-- Route Planning (Project [OSRM](https://project-osrm.org/), Project [VROOM](https://github.com/VROOM-Project/vroom))
-- OpenStreet Maps
-- Leaflet JS
+#### Technology Stack
+- Java (Wildfly, JavaEE, Hibernate).
+- JSF (Primefaces).
+- SQL (PostgreSQL).
+- HTML/CSS/Javascript.
+- NodeJS.
+- Route Planning (Project [OSRM](https://project-osrm.org/), Project [VROOM](https://github.com/VROOM-Project/vroom)).
+- OpenStreet Maps.
+- Leaflet JS.
 
-#### Tareas
-- Revisé y seleccioné un motor de optimización de rutas dentro de las opciones de código abierto y de pago disponibles.
-- Preparé y automaticé el proceso de ingesta de datos geoespaciales (utilizando datos públicos de Open Street Maps).
-- Implementé algoritmos de agrupación básicos para puntos de datos que representan puntos de entrega (K-Means).
-- Implementé un componente de calendario para ver y calcular las fechas disponibles para agendamiento de visitas, dados los diferentes parámetros de frecuencia disponibles.
-- Integré el motor de optimización de rutas, teniendo en cuenta nuestras restricciones/limitaciones.
-- Redacté pruebas unitarias y E2E (extremo-a-extremo).
+#### Tasks
+- Reviewed and selected a route optimization engine from the open source and paid options available.
+- Prepared and automated the geospatial data ingestion process (using public data from Open Street Maps).
+- Implemented basic clustering algorithms for data points representing delivery points (K-Means).
+- Implemented a calendar component to view and calculate the dates available for scheduling visits, given different customizable frequency parameters allowed.
+- Integrated the route optimization engine, taking into account our restrictions/limitations.
+- Wrote unit and E2E (end-to-end) tests.
 
-### Sistema de Trazabilidad
-Aplicación móvil que forma parte de un sistema integral de trazabilidad que permite el seguimiento de diferentes etapas definidas utilizando un lenguaje forma de definición de procesos (BPMN). Esta aplicación se encarga de desplegar las etapas activas junto con sus tareas, donde cada tarea requiere completar un formulario dinámico y personalizable para recolectar información puntual necesaria (Ej.: toma de fotografías, posicionamiento GPS, trazado de áreas en mapa, entre otros.)
+### Sistema de Trazabilidad - A Traceability Platform
+Mobile application that is part of a traceability system that allows the monitoring of different stages defined using a formal process definition language (BPMN). This application is responsible for displaying the active stages of a trace plan along with their tasks, where each task requires completing a dynamic and customizable form to collect necessary specific information (e.g.: taking photographs, GPS positioning, plotting areas on a map, among others).
 
-#### Stack
-- Java (Wildfly, JavaEE, Hibernate)
-- JSF (Primefaces)
-- SQL (PostgreSQL)
-- BPMN (Camunda)
-- Typescript
-- React Native
+#### Technology Stack
+- Java (Wildfly, JavaEE, Hibernate).
+- JSF (Primefaces).
+- SQL (PostgreSQL).
+- BPMN (Camunda).
+- Typescript.
+- React Native.
 
-#### Tareas
-- Implementé un módulo que toma una definición de formulario en formato json y lo convierte a vistas dentro de la aplicación móvil.
-- Implementé controles avanzados para ingresar texto/fecha/número, tomar fotografías, geolocalización y seleccionar áreas en un mapa.
-- Implementé la base para gestionar flujos de trabajo que representan diferentes procesos de seguimiento.
-- Integré la aplicación móvil con el sustrato blockchain utilizado para conservar los datos.
-- Redacté pruebas unitarias y E2E (extremo-a-extremo).
+#### Tasks
+- Implemented a module that takes a form definition in json format and converts it to views within the mobile app.
+- Implemented advanced controls for entering text/date/number, taking photos, geolocation, and selecting areas on a map.
+- Implemented the basis to manage workflows that represent different trace plans.
+- Integrated the mobile application with a blockchain substrate used to preserve the data and guarantee privacy and integrity restrictions.
+- Wrote unit and E2E (end-to-end) tests.
 
-### Facturación Electrónica
-Consultoría particular sobre integración de diferentes sistemas ERP y de gestión al Sistema Integrado de Facturación Electrónica Nacional - SIFEN. Desarrollo de soluciones *middleware* para generación de documentos XML validos a partir de fuentes heterogéneas de datos o bien la integración a soluciones de facturación electrónica externas a través de los diferentes APIs ofrecidos. Basicamente, procesos [ETL](https://es.wikipedia.org/wiki/Extract,_transform_and_load) a medida con énfasis en facturación electrónica.
+### Facturación Electrónica - External Consulting
+Private consulting on integration of different ERP and management systems to the [SIFEN - Sistema Ingegrado de Facturación Electrónica Nacional](https://www.set.gov.py/web/e-kuatia/informacion), the national integrated electronic billing system. Development of *middleware* solutions for generating valid XML documents from heterogeneous data sources or integration to external electronic invoicing solutions through the different APIs offered. Basically, custom [ETL](https://es.wikipedia.org/wiki/Extract,_transform_and_load) processes with emphasis on electronic invoicing.
 
-#### Stack
-- Java
-- Python
-- SQL (Oracle, PostgreSQL, SQL Server)
+#### Technology Stack
+- Java.
+- Python.
+- SQL (Oracle, PostgreSQL, SQL Server).
 
-#### Tareas
-- Asistí a reuniones con clientes para comprobar requerimientos y relevar estado actual para facturación electrónica.
-- Desarrollé herramientas que permiten tomar datos desde las fuentes de datos disponibilizados por los interesados (vistas/tablas de bases de datos, archivos planos json/csv/otros, étc.) de forma transparente.
-- Desarrollé herramientas que toman los datos procesados (punto anterior) y convierten los mismos a la forma esperada por el software concreto de facturación electrónica.
-- Implementé un pequeño API REST para gestión/consultas de estas implementaciones de forma remota.
-- Redacté pruebas unitarias y E2E (extremo-a-extremo).
+#### Tasks
+- Attended meetings with clients to check requirements and review current status for electronic billing.
+- Developed tools that allow data to be taken from the data sources made available by the interested parties (database views/tables, json/csv/other flat files, etc.) in a transparent way.
+- Developed tools that take the processed data (previous point) and convert it to the form expected by the specific electronic invoicing software.
+- Implemented a small REST API to manage/query these implementations remotely.
+- Wrote unit and E2E (end-to-end) tests.
 
-## Proyectos Personales/de Muestra
+## Personal Projects
 
 ### Chatbot
-Sistema de procesamiento de mensajes, estilo chatbot, utilizando una arquitectura distribuida y escalable. Tiene el potencial de gestionar un alto volumen de mensajes y aplicar diferentes lógicas de negocio para dar respuesta a los mensajes entrantes.
+Message processing system, chatbot style, using a distributed and scalable architecture. It has the potential to manage a high volume of messages and apply different business logic to respond to incoming messages.
 
-Repositorio: [https://github.com/fabiuxx/chatbot](https://github.com/fabiuxx/chatbot).
+Code Repository: [https://github.com/fabiuxx/chatbot](https://github.com/fabiuxx/chatbot).
 
-#### Stack
-- RabbitMQ
-- Python (Flask)
-- Typescript
-- NodeJS
-- React
-- RollupJs
-- Docker
+#### Technology Stack
+- RabbitMQ.
+- Python (Flask).
+- Typescript.
+- NodeJS.
+- React.
+- RollupJs.
+- Docker.
 
-#### Conceptos Aplicados
-- API REST.
-- Comunicación bidireccional a tiempo real (websockets).
-- Colas de mensajes.
-- Diseño de interfaz como componentes individuales.
+#### Key Concepts
+- REST API.
+- Bidirectional communication in real time (websockets).
+- Message queues.
+- User interface design and orgnaization in individual components.
 
 ### API Restful Microservicios
-Sistema basado en microservicios que permite conceptualizar los diferentes componentes de una arquitectura de este estilo.
+A microservices based system that allows conceptualizing the different components of an architecture of this style.
 
-Repositorio: [https://github.com/fabiuxx/api-microservicios](https://github.com/fabiuxx/api-microservicios).
+Code Repository: [https://github.com/fabiuxx/api-microservicios](https://github.com/fabiuxx/api-microservicios).
 
-#### Stack
-- Java (Spring Boot, Hibernate)
-- Python (Flask)
-- SQL (H2 Database)
-- OpenTelemetry (SigNoz)
-- Docker
+#### Technology Stack
+- Java (Spring Boot, Hibernate).
+- Python (Flask).
+- SQL (H2 Database).
+- OpenTelemetry (SigNoz).
+- Docker.
 
-#### Conceptos Aplicados
-- Diseño con microservicios.
+#### Key Conceptos
+- Microservices design.
 - API REST.
-- Telemetría y observabilidad para microservicios.
+- Telemetry and Observability.

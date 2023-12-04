@@ -1,15 +1,20 @@
 @echo off
 set CD=%CD%
 title MKDOCS - BUILD
-rmdir /Q /S site 1>&2 2>Nul
 
 :: ESPAÑOL
-mkdocs build -f .\es\config.yml
-copy page.css .\es\site 1>&2 2>Nul
+mkdocs build -s -c -f .\es\config.yml -d .\site_es
+copy page.css .\es\site_es
 
 :: INGLÉS
-mkdocs build -f .\en\config.yml
-copy page.css .\en\site 1>&2 2>Nul
+mkdocs build -s -c -f .\en\config.yml -d .\site_en
+copy page.css .\en\site_en
 
-::rmdir /Q /S "%CD%/../docs" 1>&2 2>Nul
-::move "%CD%/site" "%CD%/../docs"
+:: DESTINO FINAL
+cd %CD%\..
+rmdir /Q /S site
+mkdir site
+move "src/es/site_es" "site/es"
+move "src/en/site_en" "site/en"
+
+cd %CD%

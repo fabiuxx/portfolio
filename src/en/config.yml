@@ -10,5 +10,5 @@ extra_css:
 plugins: []
 nav:
   - Home: index.md
-  - Proyectos: projects.md
-  - Contacto: contact.md
+  - Projects: projects.md
+  - Contact: contact.md

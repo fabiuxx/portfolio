@@ -1,8 +1,8 @@
-# ¡Bienvenido!
+# ¡Welcome!
 
 <div style="font-size: 2em; font-weight: bold;">Fabio Antonio González Sosa</div>
-<em>Ingeniero en Software</em>
+<em>Bs. C. Computer Science - Software Engineer</em>
 
-Me especializo en el diseño *full-stack* e implementación de plataformas de software a medida para afrontar diferentes desafíos de la industria en diferentes sectores. Mi experiencia se centra principalmente en el *backend* de estas plataformas, asegurándome que la base sea lo suficientemente sólida para extender y construir otras soluciones sobre la misma. Por otro lado, cuento con experiencia en el desarrollo de aplicaciones móviles nativas e híbridas, creación de interfaces web y software de escritorio multiplataformas (windows/linux) para conectar a los usuarios finales con los servicios implementados y cerrar el circuito operativo. Capaz de ejecutar proyectos de forma individual y/o con personas bajo mi supervisión.
+I specialize in the *full-stack* design and implementation of custom software platforms to address different industry challenges in different sectors. My experience focuses mainly on the *backend* of these platforms, ensuring that the foundation is solid enough to extend and build other solutions on top of it. On the other hand, I have experience in the development of native and hybrid mobile applications, creation of web interfaces and multiplatform desktop software (windows/linux) to connect end users with the implemented services and close the operational loop. Able to execute projects individually and/or with people under my supervision.
 
-<a href="./projects">¡Te muestro!.</a>
+<a href="./projects">¡Have a look!.</a>
