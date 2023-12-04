@@ -12,9 +12,9 @@ copy page.css .\en\site_en
 
 :: DESTINO FINAL
 cd %CD%\..
-rmdir /Q /S site
-mkdir site
-move "src/es/site_es" "site/es"
-move "src/en/site_en" "site/en"
+rmdir /Q /S docs
+mkdir docs
+move "src/es/site_es" "docs/es"
+move "src/en/site_en" "docs/en"
 
 cd %CD%
