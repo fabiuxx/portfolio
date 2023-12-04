@@ -3,7 +3,7 @@ site_url: https://fabiuxx.github.io/portfolio
 site_author: Fabio Antonio González Sosa
 theme:
   name: gitbook
-  custom_dir: overrides
+  custom_dir: ../overrides
 extra_css:
   - page.css
 # Deshabilita la busqueda: https://github.com/squidfunk/mkdocs-material/issues/1143#issuecomment-504640100
